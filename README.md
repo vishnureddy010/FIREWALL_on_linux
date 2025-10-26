@@ -28,14 +28,13 @@ This confirms the firewall is now running.
 
 2️⃣ List Existing Rules
 sudo ufw status numbered
-📸 Screenshot 1: Shows “Status: active” with no rules initially.
 
 3️⃣ Block Inbound Traffic on Port 23 (Telnet)
 sudo ufw deny 23
 sudo ufw status numbered
 
 
-📸 Screenshot 2: Shows port 23 DENY Anywhere
+📸 Screenshot 1: Shows port 23 DENY Anywhere
 
 4️⃣ Test the Rule (Telnet Block)
 
@@ -54,7 +53,7 @@ nc -zv localhost 23
 nc: connect to localhost port 23 (tcp) failed: Connection refused
 
 
-📸 Screenshot 3: Telnet connection refused – rule verified.
+📸 Screenshot 2: Telnet connection refused – rule verified.
 5️⃣ Allow SSH (Port 22)
 sudo ufw allow 22
 sudo ufw status numbered
