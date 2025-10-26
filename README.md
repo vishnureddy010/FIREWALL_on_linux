@@ -20,7 +20,7 @@ To configure and test basic firewall rules using **UFW (Uncomplicated Firewall)*
 
 ## 🪜 Steps Performed
 
-```bash
+--bash
 1️⃣ Enable UFW
 sudo ufw enable
 ✅ Output: Status: active
@@ -60,3 +60,28 @@ sudo ufw status numbered
 
 
 ✅ SSH is now explicitly allowed.
+
+
+
+
+✅ Outcome
+
+Successfully configured and tested UFW to:
+
+Block insecure Telnet traffic (port 23)
+
+Allow secure SSH communication (port 22)
+
+Demonstrate control over inbound network traffic
+
+This shows understanding of basic firewall configuration and network filtering.
+
+💡 Key Learnings
+
+Firewalls control traffic based on rules and ports
+
+Blocking Telnet (23) improves security
+
+SSH (22) must be allowed to maintain remote access
+
+UFW simplifies iptables management using easy commands
