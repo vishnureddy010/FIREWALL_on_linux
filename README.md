@@ -20,7 +20,8 @@ To configure and test basic firewall rules using **UFW (Uncomplicated Firewall)*
 
 ## 🪜 Steps Performed
 
-### 1️⃣ Enable UFW
+
+1️⃣ Enable UFW
 ```bash
 sudo ufw enable
 ✅ Output: Status: active
