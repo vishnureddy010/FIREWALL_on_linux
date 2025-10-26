@@ -1,0 +1,8 @@
+💻 Commands Summary
+sudo apt install ufw -y
+sudo ufw enable
+sudo ufw status numbered
+sudo ufw deny 23
+nc -zv localhost 23
+sudo ufw allow 22
+sudo ufw delete deny 23
